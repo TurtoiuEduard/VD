@@ -22,7 +22,7 @@
   yesBtn.addEventListener("click", () => {
     content.style.display = "none";
     if (sideImg) sideImg.style.display = "none";
-    message.innerHTML = "YEESSSS😜💪🏽💪🏽 <img src='sefu.jpeg' alt='Sefu' style='width: 100px; height: auto; margin-left: 10px;'>";
+    message.innerHTML = "YEESSS😜💪🏽💪🏽 <img src='sefu.jpeg' alt='Sefu' style='width: 100px; height: auto; margin-left: 10px;'>";
     message.style.display = "flex";
     message.style.alignItems = "center";
     message.style.justifyContent = "center";
