@@ -84,6 +84,8 @@
       font-size: 20px;
       color: #ff4d6d;
       display: none;
+      position: relative;
+      z-index: 10;
     }
 
     @keyframes wave {
@@ -111,6 +113,7 @@
       color: #333;
       cursor: pointer;
       display: none;
+      z-index: 10;
     }
 
     #sefuImg {
