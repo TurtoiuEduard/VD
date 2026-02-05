@@ -33,6 +33,11 @@
     message.style.left = "50%";
     message.style.transform = "translate(-50%, -50%)";
     message.style.zIndex = "100";
+    message.style.backgroundColor = "white";
+    message.style.color = "black";
+    message.style.padding = "20px";
+    message.style.borderRadius = "10px";
+    message.style.boxShadow = "0 4px 10px rgba(0,0,0,0.3)";
     bgVideo.src = "artificii.mp4"; // Assuming the video file is named artificii.mp4
     bgVideo.setAttribute("playsinline", "");
     bgVideo.setAttribute("webkit-playsinline", "");
