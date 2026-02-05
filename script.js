@@ -32,7 +32,12 @@
     message.style.top = "50%";
     message.style.left = "50%";
     message.style.transform = "translate(-50%, -50%)";
+    message.style.zIndex = "100";
     bgVideo.src = "artificii.mp4"; // Assuming the video file is named artificii.mp4
+    bgVideo.setAttribute("playsinline", "");
+    bgVideo.setAttribute("webkit-playsinline", "");
+    bgVideo.muted = true;
+    bgVideo.play();
     bgVideo.style.display = "block";
     body.style.backgroundImage = "none";
     body.style.backgroundColor = "black"; // Optional, for video contrast
