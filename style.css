@@ -149,13 +149,16 @@
       }
 
       .buttons {
-        height: auto;
-        position: static;
+        height: 250px; /* Facem loc (spatiu) ca sa aiba unde sa fuga */
+        position: relative;
+        width: 100%;
       }
 
       #no {
-        position: static;
-        margin-top: 10px;
+        position: absolute; /* Ii dam voie sa se miste liber */
+        top: 100px; /* Il asezam initial sub butonul Yes */
+        left: 50%;
+        transform: translateX(-50%); /* Il centram */
       }
 
       button {
