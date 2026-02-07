@@ -17,6 +17,7 @@
 
     noBtn.style.left = `${x}px`;
     noBtn.style.top = `${y}px`;
+    noBtn.style.transform = "none"; // Scoatem centrarea CSS cand incepe sa fuga
   }
 
   yesBtn.addEventListener("click", () => {
@@ -63,3 +64,4 @@
 
   noBtn.addEventListener("mouseover", moveButton);
   noBtn.addEventListener("mousemove", moveButton);
+  noBtn.addEventListener("touchstart", moveButton); // Adaugam reactie la atingere pe telefon
