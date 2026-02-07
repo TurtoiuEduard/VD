@@ -42,7 +42,7 @@
     bgVideo.src = "artificii.mp4"; // Assuming the video file is named artificii.mp4
     bgVideo.setAttribute("playsinline", "");
     bgVideo.setAttribute("webkit-playsinline", "");
-    bgVideo.muted = true;
+    bgVideo.muted = false;
     bgVideo.play();
     bgVideo.style.display = "block";
     body.style.backgroundImage = "none";
